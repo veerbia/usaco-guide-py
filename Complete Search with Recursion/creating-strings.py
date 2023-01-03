@@ -1,3 +1,4 @@
+# Creating Strings I
 s = input()
 perms = []
 char_count = [0] * 26
@@ -19,3 +20,6 @@ search("")
 print(len(perms))
 for p in perms:
     print(p)
+
+# Time Complexity: O(n!)
+# Space Complexity: O(n!)
